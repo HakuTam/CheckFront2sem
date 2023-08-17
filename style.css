@@ -34,6 +34,33 @@ footer {
     background-image: linear-gradient(to bottom, #9a031e, #5d0011);
 }
 
+#pProdutos{
+    background-image: linear-gradient(to bottom, #9a031e, #5d0011);
+    min-height: 100vh;
+}
+
+.prateleira {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  li {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    flex-basis: calc(33.33% - 20px);
+  }
+
 .containerCad{
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
