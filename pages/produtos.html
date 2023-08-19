@@ -7,25 +7,49 @@
     <link rel="stylesheet" href="../style.css" type="text/css">
 </head>
 <body id="pProdutos">
-    <ul class="prateleira">
-        <li>
-            <img src="https://adegamarche.vtexassets.com/arquivos/ids/165811/VARG-ZUCCARDI-SERIE-A-TORRONTES-750ML.jpg?v=1778613099" alt="Vinho Branco Argentino Zuccati Serie A Torrones 750ml" height="20%">
-            <h4>Vinho Branco Argentino Zuccati Serie A Torrones 750ml</h4>
-            <p>Descrição do item 1</p>
-            <h5>de R$166,00</h5>
-            <h5>por R$107,91</h5>
-        </li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-        <li>Item 5</li>
-        <li>Item 6</li>
-        <li>Item 7</li>
-        <li>Item 8</li>
-        <li>Item 9</li>
-        <li>Item 10</li>
-      
-      </ul>
+    <div id="cabeca">
+        <h1>Vinheria Agnello - Produtos</h1>
+    </div>
+    <div class="prateleira">
+        </div>
+        <div id="botoes-container">
+            <div id="botoes">
+                <button onclick="window.location.href='cadastro.html'"> Cadastro</button>
+            </div><div id="botoes">
+                <button onclick="window.location.href='sobre.html'"> Sobre nós</button>
+            </div><div id="botoes">
+                <button onclick="window.location.href='contato.html'"> Contato</button>
+            </div><div id="botoes">
+                <button onclick="window.location.href='produtos.html'"> Produtos</button>
+        </div>
+    </div>
+
+    <div class="container">
+		<div class="row">
+			<div class="produto">
+				<img src="https://adegamarche.vtexassets.com/arquivos/ids/165811/VARG-ZUCCARDI-SERIE-A-TORRONTES-750ML.jpg?v=1778613099" alt="Produto 1">
+				<h2>Vinho Branco Argentino Zuccati Serie A Torrones 750ml</h2>
+				<p>Descrição do produto 1</p>
+                <h5>de R$166,00 <br> por R$107,91</h5>
+				<button id="botãoComprar">Comprar</button>
+			</div>
+			<div class="produto">
+				<img src="produto2.jpg" alt="Produto 2">
+				<h2>Produto 2</h2>
+				<p>Descrição do produto 2</p>
+				<p>R$ 200,00</p>
+				<button id="botãoComprar">Comprar</button>
+			</div>
+			<div class="produto">
+				<img src="produto3.jpg" alt="Produto 3">
+				<h2>Produto 3</h2>
+				<p>Descrição do produto 3</p>
+				<p>R$ 150,00</p>
+				<button id="botãoComprar">Comprar</button>
+			</div>
+		</div>
+	</div>
+    
     <script src="../script.js"></script>
 </body>
 </html>
