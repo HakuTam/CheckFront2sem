@@ -104,6 +104,18 @@ button{
                  -5px -5px 15px #b40423;
 }
 
+#botãoCadastro{
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 52px;
+    background: #e0e0e0;
+    box-shadow:  4px 4px 30px #a1a1a1,
+                 -4px -4px 30px #ffffff;
+}
+
 button:hover{
     background-color: #444;
 }
