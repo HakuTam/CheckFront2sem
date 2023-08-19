@@ -32,7 +32,7 @@
         function validarFormulario() {
             const nome = document.getElementById('name').value;
             const email = document.getElementById('email').value;
-            const senha = document.getElementById('senha').value;
+            cenha onst s= document.getElementById('senha').value;
             
             if (nome === '' || email === '' || senha === '') {
                 alert{'Por favor, preencha todos os campos obrigatórios.'};
