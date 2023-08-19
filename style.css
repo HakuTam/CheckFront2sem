@@ -14,7 +14,7 @@
 }
 
 footer {
-    background-color: #333;
+    background: #5d0011;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -98,6 +98,10 @@ button{
     border-radius: 5px;
     width: 100%;
     cursor: pointer;
+    border-radius: 79px;
+    background: linear-gradient(145deg, #a50320, #8b031b);
+    box-shadow:  5px 5px 15px #800219,
+                 -5px -5px 15px #b40423;
 }
 
 button:hover{
@@ -141,7 +145,7 @@ button:hover{
     text-align: center;
 }
 #fundo{
-    background-image: linear-gradient(to right, #934c59, #5d0011);
+    background-image: linear-gradient(to bottom, #da0028, #5d0011);
 }
 #botoess {
     display: inline-block;
