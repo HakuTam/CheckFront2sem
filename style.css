@@ -35,7 +35,7 @@ footer {
 }
 
 #pProdutos{
-    background-image: linear-gradient(to bottom, #9a031e, #5d0011);
+    background-image: linear-gradient(to bottom, #9a031e, #330009);
     min-height: 100vh;
 }
 
@@ -70,11 +70,20 @@ footer {
 	border-radius: 5px;
 }
 
+#descriçãoProduto{
+    text-align: left;
+    font-style: italic;
+}
+
+#descriçãoTecnica{
+    text-align: left;
+}
+
 #botãoComprar{
     border-radius: 52px;
     background: linear-gradient(145deg, #f0f0f0, #cacaca);
-    box-shadow:  9px 9px 17px #bcbcbc,
-                 -9px -9px 17px #ffffff;
+    box-shadow:  3px 3px 10px #bcbcbc,
+                 -3px -3px 10px #ffffff;
 }
 
 .produto img {
@@ -186,9 +195,7 @@ button:hover{
     display: inline-block;
     padding: 10px;
     margin: 5px;
-    border: 2px solid #ffffff;
     border-radius: 8px; 
-    background-color: rgb(38, 36, 36);
     margin-top: -700px;  
     
 }
