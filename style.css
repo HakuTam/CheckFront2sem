@@ -131,7 +131,7 @@ button{
     width: 100%;
     cursor: pointer;
     border-radius: 79px;
-    background: linear-gradient(145deg, #a50320, #8b031b);
+    background: linear-gradient(145deg, #af9499, #272525);
     box-shadow:  5px 5px 15px #800219,
                  -5px -5px 15px #b40423;
 }
@@ -185,11 +185,12 @@ button:hover{
 }
 #cabeca{
     font-size: 25px;
-    color: white;
+    color: rgb(43, 42, 42);
     text-align: center;
+    text-decoration: underline;
 }
 #fundo{
-    background-image: linear-gradient(to bottom, #da0028, #5d0011);
+    background-image: linear-gradient( to right ,#da0028, #863c86);
 }
 #botoess {
     display: inline-block;
