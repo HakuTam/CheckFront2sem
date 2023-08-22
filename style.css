@@ -198,12 +198,10 @@ button:hover{
     margin: 5px;
     border-radius: 8px; 
     margin-top: -700px;  
-    
 }
 #botoess-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
 }
