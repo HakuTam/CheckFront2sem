@@ -205,3 +205,13 @@ button:hover{
     align-items: center;
     height: 100vh;
 }
+#imagem2 {
+    text-align: center;
+    margin-top: 100px; 
+}
+
+#imagem2 img {
+    max-width: 50%;
+    height: auto;
+}
+
