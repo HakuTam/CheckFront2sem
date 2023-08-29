@@ -208,6 +208,9 @@ button:hover{
 #imagem2 {
     text-align: center;
     margin-top: 100px; 
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #imagem2 img {
