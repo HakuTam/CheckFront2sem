@@ -31,11 +31,11 @@ footer {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom, #9a031e, #5d0011);
+    background-image: linear-gradient( to right ,#da0028, #863c86);
 }
 
 #pProdutos{
-    background-image: linear-gradient(to bottom, #9a031e, #330009);
+    background-image: linear-gradient( to right ,#da0028, #863c86);
     min-height: 100vh;
 }
 
