@@ -167,6 +167,17 @@ button:hover{
     float: left; 
     margin:57px;
 }
+
+.containerCon {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    max-width: 300px;
+    margin:57px;
+}
+
 #texttoo {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 30px;
@@ -249,4 +260,14 @@ button:hover{
     position: absolute;
     bottom: 0;
     width: 95%;
+}
+#mapa{
+    padding: 20px;
+    margin: 500px;
+    margin-top:-405px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 200%;
 }
